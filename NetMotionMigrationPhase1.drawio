@@ -1,1 +1,37 @@
-<mxfile host="www.draw.io" modified="2020-03-05T22:18:01.119Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.8.1" etag="9_Hiyr-Q4chWllPp5Dwa" type="github"><diagram id="pPJgWSPduOVFWMKjp7CD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-05T22:42:54.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="snjvgsCe28Yr0bQtvpsZ" version="12.8.1" type="github">
+  <diagram id="pPJgWSPduOVFWMKjp7CD" name="Page-1">
+    <mxGraphModel dx="1673" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://help.netmotionsoftware.com/support/docs/MobilityXG/1100/help/Mobility%20Server/images/technote2225_DMZ.png;" vertex="1" parent="1">
+          <mxGeometry width="713.27" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://help.netmotionsoftware.com/support/docs/MobilityXG/1100/help/Mobility%20Server/images/technote2225_DMZ.png;" vertex="1" parent="1">
+          <mxGeometry x="850" width="713.27" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-13" value="&lt;div&gt;CURRENT ENV&lt;/div&gt;&lt;div&gt;vpn.nsf.org&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="140" y="630" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-14" value="&lt;div&gt;NEW ENV&lt;/div&gt;&lt;div&gt;testvpn.nsf.org&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="630" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="20" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-26" value="Steps" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="780" width="255" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-27" value="Migrate PW Data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k44SQWkfSxZpRTtgYU_q-26">
+          <mxGeometry y="26" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-28" value="Migrate NMMOB Config&#xa;minus VIP POOL&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k44SQWkfSxZpRTtgYU_q-26">
+          <mxGeometry y="52" width="255" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k44SQWkfSxZpRTtgYU_q-29" value="Test to ensure user connectivity is the same" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k44SQWkfSxZpRTtgYU_q-26">
+          <mxGeometry y="100" width="255" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
